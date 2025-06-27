@@ -1,69 +1,88 @@
 ````markdown name=README.md
 # 8c
 
-A TypeScript-based project by [Bharat](https://github.com/8harath), built for a friend's production company.
+Welcome to **8c** — a modern web application crafted by [Bharat](https://github.com/8harath) for a friend's production company!
 
-## Overview
+---
 
-**8c** is a project primarily written in TypeScript, with supporting CSS and JavaScript.  
-The repository is structured to emphasize maintainable, type-safe code and modular design.
+## 🎯 What is 8c?
 
-## Features
+**8c** is a TypeScript-powered project designed with clarity, maintainability, and performance in mind.  
+Whether you're a developer, collaborator, or just curious, this repository is your starting point.
 
-- Written in modern TypeScript (97.1%).
-- Modular and maintainable architecture.
-- Includes styling with CSS (2.7%) and minimal JavaScript (0.2%).
+---
 
-## Getting Started
+## ✨ Highlights
 
-### Prerequisites
+- **Built with TypeScript:** Modern, type-safe, and scalable codebase.
+- **Clean Architecture:** Easy to navigate and extend.
+- **Beautiful Styles:** Custom CSS for a polished look.
+- **Minimal JavaScript:** Only where it matters.
 
-- [Node.js](https://nodejs.org/) (LTS recommended)
+---
+
+## 🚀 Getting Started
+
+### 1. Prerequisites
+
+- [Node.js](https://nodejs.org/) (LTS version recommended)
 - [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
-### Installation
+### 2. Installation
 
-Clone the repository and install dependencies:
+Clone this repository and install the dependencies:
 
 ```bash
 git clone https://github.com/8harath/8c.git
 cd 8c
-npm install
-# or
-yarn install
+npm install          # or: yarn install
 ```
 
-### Usage
+### 3. Run the Application
 
-To build and start the project:
+To start the development server:
 
 ```bash
-npm run build
-npm start
-# or
-yarn build
-yarn start
+npm start            # or: yarn start
 ```
 
-## Project Structure
+To build for production:
 
-```
-src/           # Main TypeScript source files
-public/        # Static assets
-styles/        # CSS files
-scripts/       # JavaScript utilities (if any)
-README.md      # Project documentation
+```bash
+npm run build        # or: yarn build
 ```
 
-## Contributing
+---
 
-Contributions are welcome! Please open an issue or submit a pull request.
+## 🗂️ Project Structure
 
-## License
+```
+8c/
+├── src/        # Main TypeScript source code
+├── public/     # Static files (images, icons, etc.)
+├── styles/     # CSS stylesheets
+├── scripts/    # JavaScript utilities (if any)
+└── README.md   # This file!
+```
+
+---
+
+## 🤝 Contributing
+
+Your contributions are welcome!  
+Feel free to fork the repository, make changes, and submit a pull request.
+
+If you find a bug or have a suggestion, please [open an issue](https://github.com/8harath/8c/issues).
+
+---
+
+## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-© 2025 Bharat
+> _Made with care by Bharat for a friend's production company._  
+> _Thank you for visiting!_
+
 ````
