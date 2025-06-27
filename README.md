@@ -1,6 +1,6 @@
 # 8c
 
-Welcome to **8c** — a modern web application crafted by [Bharat](https://github.com/8harath) for a friend's production company!
+Welcome to **8c** — a modern web application crafted by [Bharath](https://github.com/8harath) for a friend's production company!
 
 ---
 
