@@ -1,8 +1,3 @@
-Thank you for your feedback! Here’s a cleaner, more user-friendly README for your 8c project, with hashtags and bash code blocks handled in a clearer, more conventional way. Headings will use standard Markdown (`##`, `###`), and command-line instructions will use proper fenced code blocks labeled as `bash`.
-
-Please review the following improved version:
-
-````markdown name=README.md
 # 8c
 
 Welcome to **8c** — a modern web application crafted by [Bharat](https://github.com/8harath) for a friend's production company!
@@ -94,6 +89,3 @@ This project is licensed under the [MIT License](LICENSE).
 
 > _Made with care by Bharat for a friend's production company._  
 > _Thank you for visiting!_
-````
-
-Would you like me to update the README.md in your repository with this improved version? If you want further customization, feel free to let me know!
