@@ -87,5 +87,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-> _Made with care by Bharat for a friend's production company._  
+> _Made with care by [Bharath] (https://8harath.me) for a friend's production company._  
 > _Thank you for visiting!_
