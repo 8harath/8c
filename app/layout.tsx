@@ -22,11 +22,11 @@ const cinzel = Cinzel({
 })
 
 export const metadata: Metadata = {
-  title: "8C Studios - Where Sound Meets Soul. Art Lives Here.",
+  title: "8C RECORDS - NO EGO WHEN WE GO",
   description:
-    "Experimental production house working at the intersection of visual arts and avant-garde sound, creating immersive experiences that transcend traditional boundaries.",
-  keywords: "music production, visual arts, experimental sound, avant-garde, Tony Leone, 8C Studios",
-    generator: 'v0.dev'
+    "8C RECORDS is a rising powerhouse in India's independent music scene, spearheaded by 8C TONY, 8C SAM, and ADIPETTI. Known for raw, boundary-pushing artistry and bold aesthetics. bcity, southside.",
+  keywords: "8C RECORDS, hip-hop, drill, experimental, bcity, southside, 8C TONY, 8C SAM, ADIPETTI, music label, India, underground, wolf, guns, war weapons, nike sneakers, diamond jewellery, iced out",
+  generator: 'v0.dev'
 }
 
 export default function RootLayout({

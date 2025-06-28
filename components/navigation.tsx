@@ -36,7 +36,7 @@ export default function Navigation() {
             href="/"
             className="font-orbitron font-bold text-xl text-[#d4af37] hover:text-[#6a4c93] transition-colors"
           >
-            8C STUDIOS
+            8C RECORDS
           </Link>
 
           {/* Desktop Navigation */}

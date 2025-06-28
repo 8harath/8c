@@ -25,16 +25,16 @@ export default function AboutPage() {
       <section className="py-20 px-4 max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <h1 className="font-orbitron font-bold text-4xl md:text-5xl text-[#d4af37] mb-8">About 8C Studios</h1>
+            <h1 className="font-orbitron font-bold text-4xl md:text-5xl text-[#d4af37] mb-8">About 8C RECORDS</h1>
             <div className="space-y-4 text-[#cccccc] text-lg leading-relaxed">
               <p className="fade-in">
-                8C Studios is an experimental production house co-founded by visionary artist Tony Leone. We work at the
-                intersection of visual arts and avant-garde sound, creating immersive experiences that transcend
-                traditional boundaries.
+                8C RECORDS is a rising powerhouse in India's independent music scene, known for its raw, boundary-pushing artistry. Spearheaded by 8C TONY, 8C SAM, and ADIPETTI, the label is a creative haven for genre-bending artists, especially in hip-hop, drill, and experimental sounds. bcity, southside.
               </p>
               <p className="fade-in fade-in-delay-1">
-                Our mission is to push the limits of creative expression, blending cutting-edge technology with raw
-                artistic vision. Every project we undertake is a journey into uncharted sonic and visual territories.
+                What sets 8C apart is its bold aesthetic—think wolf roaring, guns, war weapons, Nike sneakers, and men iced out in diamond jewellery. The label's roster is stacked with authentic voices who rep their roots with pride, blending Indian influence with global flair. Visually, their videos are cinematic and streetwise—no compromises, just culture.
+              </p>
+              <p className="fade-in fade-in-delay-2">
+                From sonic innovation to rebel energy, 8C RECORDS isn't just making music—it's shaping the sound of tomorrow's India. NO EGO WHEN WE GO.
               </p>
             </div>
           </div>

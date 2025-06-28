@@ -40,10 +40,12 @@ export default function ContactPage() {
   }
 
   const socialLinks = [
-    { name: "Instagram", icon: <Instagram size={20} />, url: "#" },
-    { name: "Twitter", icon: <Twitter size={20} />, url: "#" },
-    { name: "YouTube", icon: <Youtube size={20} />, url: "#" },
-    { name: "Spotify", icon: <Music size={20} />, url: "#" },
+    { name: "Spotify (8C Tony)", icon: <Music size={20} />, url: "https://open.spotify.com/artist/4dgvjJXnVc0LsMcPxJ1G2l?si=8Q6W02hnQoaeBw4lYG-71g" },
+    { name: "Spotify (Adipetti)", icon: <Music size={20} />, url: "https://open.spotify.com/artist/3xc0HXO4HGJI3KVD0bI8ZR?si=GcU2HCQLQtCNHOmRy_NzLQ" },
+    { name: "Spotify (Track)", icon: <Music size={20} />, url: "https://open.spotify.com/track/1cWkNAI04ZAmHeSIGfXRsW?si=hEYmE1J8TTq-dvy_s4Yn8w" },
+    { name: "Instagram (8C Tony)", icon: <Instagram size={20} />, url: "https://www.instagram.com/8c.tony?igsh=MTdvdXJwa2thbWMwbA==" },
+    { name: "Instagram (Adipetti)", icon: <Instagram size={20} />, url: "https://www.instagram.com/adipetti?igsh=c3dodXE2YWFrdWpz" },
+    { name: "Instagram (8C Sam)", icon: <Instagram size={20} />, url: "https://www.instagram.com/8c_sam?igsh=NXFic2E2ejN4YWcy" },
   ]
 
   return (
@@ -133,12 +135,7 @@ export default function ContactPage() {
               <div className="space-y-4">
                 <div className="flex items-center gap-4">
                   <Mail className="text-[#d4af37]" size={20} />
-                  <span className="text-[#cccccc]">hello@8cstudios.com</span>
-                </div>
-
-                <div className="flex items-center gap-4">
-                  <MapPin className="text-[#d4af37]" size={20} />
-                  <span className="text-[#cccccc]">Los Angeles, CA</span>
+                  <span className="text-[#cccccc]">8c.records@gmail.com</span>
                 </div>
 
                 <div className="flex items-center gap-4">
@@ -150,20 +147,30 @@ export default function ContactPage() {
 
             {/* Social Media */}
             <div className="bg-[#1a1a1a] p-8 rounded-lg border border-[#444444]">
-              <h2 className="font-orbitron font-bold text-2xl text-white mb-6">Follow Us</h2>
-
-              <div className="grid grid-cols-2 gap-4">
+              <h2 className="font-orbitron font-bold text-2xl text-white mb-6">Follow & Listen</h2>
+              <div className="grid grid-cols-1 gap-4">
                 {socialLinks.map((social) => (
                   <a
                     key={social.name}
                     href={social.url}
                     className="flex items-center gap-3 p-3 bg-[#2a2a2a] rounded-lg hover:bg-[#3a3a3a] hover:text-[#d4af37] transition-all duration-300 group"
+                    target="_blank" rel="noopener noreferrer"
                   >
                     <span className="group-hover:scale-110 transition-transform">{social.icon}</span>
                     <span className="text-sm">{social.name}</span>
                   </a>
                 ))}
               </div>
+            </div>
+
+            {/* Direct Artist Contact */}
+            <div className="bg-[#1a1a1a] p-8 rounded-lg border border-[#444444] mt-8">
+              <h2 className="font-orbitron font-bold text-2xl text-white mb-6">Direct Artist Links</h2>
+              <ul className="space-y-2 text-[#cccccc] text-sm">
+                <li><b>8C Tony</b>: <a href="https://open.spotify.com/artist/4dgvjJXnVc0LsMcPxJ1G2l?si=8Q6W02hnQoaeBw4lYG-71g" target="_blank" rel="noopener noreferrer" className="text-[#d4af37] underline">Spotify</a> | <a href="https://www.instagram.com/8c.tony?igsh=MTdvdXJwa2thbWMwbA==" target="_blank" rel="noopener noreferrer" className="text-[#d4af37] underline">Instagram</a></li>
+                <li><b>Adipetti</b>: <a href="https://open.spotify.com/artist/3xc0HXO4HGJI3KVD0bI8ZR?si=GcU2HCQLQtCNHOmRy_NzLQ" target="_blank" rel="noopener noreferrer" className="text-[#d4af37] underline">Spotify</a> | <a href="https://www.instagram.com/adipetti?igsh=c3dodXE2YWFrdWpz" target="_blank" rel="noopener noreferrer" className="text-[#d4af37] underline">Instagram</a></li>
+                <li><b>8C Sam</b>: <span className="text-[#cccccc]">Spotify: yet to come</span> | <a href="https://www.instagram.com/8c_sam?igsh=NXFic2E2ejN4YWcy" target="_blank" rel="noopener noreferrer" className="text-[#d4af37] underline">Instagram</a></li>
+              </ul>
             </div>
           </div>
         </div>

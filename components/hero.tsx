@@ -75,7 +75,7 @@ export default function Hero() {
       <div className="text-center z-10 max-w-4xl mx-auto px-4">
         <div className="mb-8">
           <h1 className="font-orbitron font-black text-4xl md:text-6xl lg:text-8xl text-[#d4af37] mb-4 fade-in">
-            8C STUDIOS
+            8C RECORDS
           </h1>
           <div className="h-16 flex items-center justify-center">
             <p className="font-cinzel text-lg md:text-xl lg:text-2xl text-white fade-in fade-in-delay-1 transition-all duration-500">

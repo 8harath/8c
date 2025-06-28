@@ -47,11 +47,11 @@ export default function VisionPage() {
         <h1 className="font-orbitron font-bold text-4xl md:text-5xl text-center text-[#d4af37] mb-16">Our Vision</h1>
 
         <div className="space-y-12">
-          {manifestoQuotes.map((quote, index) => (
-            <div key={index} className={`text-center fade-in fade-in-delay-${Math.min(index + 1, 3)}`}>
-              <p className="font-cinzel text-xl md:text-2xl lg:text-3xl text-[#d4af37] leading-relaxed">"{quote}"</p>
-            </div>
-          ))}
+          <div className="text-center fade-in fade-in-delay-1">
+            <p className="font-cinzel text-xl md:text-2xl lg:text-3xl text-[#d4af37] leading-relaxed">
+              "At 8C RECORDS, our vision is to redefine the soundscape of Indian music by championing raw, authentic, and boundary-breaking talent. We aim to create a platform where underground voices rise to the global stage—unfiltered, fearless, and unapologetically real. By fusing local roots with international influence, we strive to build a movement that represents the streets, inspires the youth, and reshapes the future of independent music culture. bcity, southside. Wolf roaring, guns, war weapons, Nike sneakers, and iced out diamond jewellery—this is our aesthetic. NO EGO WHEN WE GO."
+            </p>
+          </div>
         </div>
       </section>
 
