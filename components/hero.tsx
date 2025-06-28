@@ -78,14 +78,14 @@ export default function Hero() {
             8C RECORDS
           </h1>
           <div className="h-16 flex items-center justify-center">
-            <p className="font-cinzel text-lg md:text-xl lg:text-2xl text-white fade-in fade-in-delay-1 transition-all duration-500">
+            <p className="font-cinzel text-lg md:text-xl lg:text-2xl text-white fade-in transition-all duration-500" style={{ animationDelay: "0.5s" }}>
               {lyrics[currentLyric]}
             </p>
           </div>
         </div>
 
         {/* Mini Player */}
-        <div className="bg-[#1a1a1a]/80 backdrop-blur-md rounded-2xl p-6 mb-8 border border-[#444444] fade-in fade-in-delay-2">
+        <div className="bg-[#1a1a1a]/80 backdrop-blur-md rounded-2xl p-6 mb-8 border border-[#444444] fade-in" style={{ animationDelay: "1s" }}>
           <div className="flex items-center justify-between mb-4">
             <div className="flex items-center gap-4">
               <button
@@ -128,7 +128,7 @@ export default function Hero() {
         </div>
 
         {/* CTA Buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center fade-in fade-in-delay-3">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center fade-in" style={{ animationDelay: "1.5s" }}>
           <button className="bg-[#d4af37] text-black font-bold px-8 py-4 rounded-full hover:bg-[#6a4c93] hover:text-white transition-all duration-300 hover:scale-105">
             Listen Now
           </button>
@@ -139,7 +139,7 @@ export default function Hero() {
       </div>
 
       {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 scroll-indicator fade-in fade-in-delay-3">
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 scroll-indicator fade-in" style={{ animationDelay: "1.5s" }}>
         <div className="flex flex-col items-center gap-2">
           <span className="text-[#d4af37] text-sm font-medium">Scroll for more</span>
           <div className="w-6 h-10 border-2 border-[#d4af37] rounded-full flex justify-center">

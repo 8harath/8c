@@ -80,7 +80,8 @@ export default function MusicPage() {
           {filteredReleases.map((release, index) => (
             <div
               key={release.id}
-              className={`group bg-[#2a2a2a] rounded-lg overflow-hidden border border-[#444444] card-hover fade-in fade-in-delay-${index + 1}`}
+              className="group bg-[#2a2a2a] rounded-lg overflow-hidden border border-[#444444] card-hover fade-in"
+              style={{ animationDelay: `${index * 0.1}s` }}
             >
               <div className="relative">
                 <Image

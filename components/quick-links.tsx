@@ -71,7 +71,8 @@ export default function QuickLinks() {
           {quickStats.map((stat, index) => (
             <div
               key={stat.label}
-              className={`text-center bg-[#1a1a1a] p-6 rounded-lg border border-[#444444] hover:border-[#d4af37] transition-all duration-300 fade-in fade-in-delay-${index + 1}`}
+              className="text-center bg-[#1a1a1a] p-6 rounded-lg border border-[#444444] hover:border-[#d4af37] transition-all duration-300 fade-in"
+              style={{ animationDelay: `${index * 0.2}s` }}
             >
               <div className="text-[#d4af37] mb-3 flex justify-center">{stat.icon}</div>
               <div className="font-orbitron font-bold text-2xl text-white mb-1">{stat.number}</div>
@@ -92,7 +93,8 @@ export default function QuickLinks() {
             <Link
               key={item.title}
               href={item.href}
-              className={`group relative overflow-hidden rounded-xl bg-[#1a1a1a] border border-[#444444] card-hover fade-in fade-in-delay-${index + 1}`}
+              className="group relative overflow-hidden rounded-xl bg-[#1a1a1a] border border-[#444444] card-hover fade-in"
+              style={{ animationDelay: `${index * 0.3}s` }}
             >
               <div className="relative h-48 overflow-hidden">
                 <Image
@@ -143,7 +145,7 @@ export default function QuickLinks() {
           {genres.map((genre, index) => (
             <span
               key={genre}
-              className={`bg-[#2a2a2a] text-[#cccccc] px-4 py-2 rounded-full text-sm border border-[#444444] hover:border-[#d4af37] hover:text-[#d4af37] transition-all duration-300 cursor-pointer fade-in`}
+              className="bg-[#2a2a2a] text-[#cccccc] px-4 py-2 rounded-full text-sm border border-[#444444] hover:border-[#d4af37] hover:text-[#d4af37] transition-all duration-300 cursor-pointer fade-in"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               #{genre.replace(" ", "")}
@@ -162,7 +164,8 @@ export default function QuickLinks() {
             {recentActivity.map((activity, index) => (
               <div
                 key={index}
-                className={`flex items-center justify-between p-4 bg-[#2a2a2a] rounded-lg hover:bg-[#3a3a3a] transition-colors duration-300 fade-in fade-in-delay-${index + 1}`}
+                className="flex items-center justify-between p-4 bg-[#2a2a2a] rounded-lg hover:bg-[#3a3a3a] transition-colors duration-300 fade-in"
+                style={{ animationDelay: `${index * 0.2}s` }}
               >
                 <div className="flex items-center gap-4">
                   <div className="w-2 h-2 bg-[#d4af37] rounded-full animate-pulse"></div>
